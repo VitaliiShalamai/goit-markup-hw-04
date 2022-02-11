@@ -433,8 +433,10 @@ body{
 
 .project-link {
     text-decoration: none;
-
     margin: 0;
+}
+img {
+    display: block;
 }
 
 .project-description {
