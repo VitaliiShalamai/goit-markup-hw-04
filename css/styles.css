@@ -389,9 +389,37 @@ background-image: url(../images/icons.svg);
     align-items: center;
     justify-content: center;
     fill: #AFB1B8;
-    /* background-color: rgba(255, 255, 255, 0.1); */
-    outline: 1px solid black;
 }
+
+/* Постоянные клиенты */
+
+.client {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.client-list {
+    display: flex;
+    padding-left: 0;
+}
+
+.client-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.client-link {
+    display: flex;
+    height: 92px;
+    width: 170px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    align-items: center;
+    justify-content: center;
+    fill: #AFB1B8;
+}
+
 
 /* Страница "Портфолио" */
 
