@@ -251,6 +251,20 @@ body{
     width: 270px;
 }
 
+.feature-list::before {
+    display: block;
+    content: '';
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--potfolio-bg-color);
+}
+
+.icon-satellite {
+background-image: url(../images/icons.svg);
+}
+
 .our-featur .feature-list:not(:last-child) {
     margin-right: 30px;
 }
@@ -352,6 +366,26 @@ body{
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.87;
+}
+
+.social-list {
+    display: flex;
+}
+
+.social-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-link {
+    display: flex;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    fill: #AFB1B8;
+    background-color: rgba(255, 255, 255, 0.1);
+    outline: 1px solid black;
 }
 
 /* Страница "Портфолио" */
