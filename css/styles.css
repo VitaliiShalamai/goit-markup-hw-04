@@ -373,22 +373,30 @@ background-image: url(../images/icons.svg);
     line-height: 1.87;
 }
 
-.social-list {
+ .social-list {
     display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-top: 16px;
 }
 
-.social-item:not(:last-child) {
-    margin-right: 10px;
-}
-
-.social-link {
+.social-list .social-link {
     display: flex;
     height: 44px;
     width: 44px;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    fill: #AFB1B8;
+    fill:#AFB1B8;
+}
+
+.social-list .social-link:hover {
+    background-color: var(--accent-color);
+    fill: var(--primary-bg-color);
+}
+
+.social-item:not(:last-child) {
+    margin-right: 10px;
 }
 
 /* Постоянные клиенты */
@@ -419,6 +427,42 @@ background-image: url(../images/icons.svg);
     justify-content: center;
     fill: #AFB1B8;
 }
+
+.icon-client {
+    fill            : #AFB1B8;
+    background-color: var(--primary-bg-color);
+}
+
+.icon-client:hover {
+    fill            : var(--primary-bg-color);
+    background-color: var(--accent-color);
+}
+
+/* .social-list {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-top: 16px;
+}
+
+.social-list .social-link {
+    display: flex;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    fill:#AFB1B8;
+}
+
+.social-list .social-link:hover {
+    background-color: var(--accent-color);
+    fill: var(--primary-bg-color);
+}
+
+.social-item:not(:last-child) {
+    margin-right: 10px;
+} */
 
 
 /* Страница "Портфолио" */
