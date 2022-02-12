@@ -406,56 +406,26 @@ background-image: url(../images/icons.svg);
     padding-bottom: 94px;
 }
 
-.client-list {
-    display: flex;
-    padding-left: 0;
+ .client-list {
+    display        : flex;
+    justify-content: center;
+    padding-left   : 0;
+    margin-top     : 16px;
 }
 
-.client-item:not(:last-child) {
-    margin-right: 30px;
-}
-
-.client-link {
+.client-list .client-link {
     display: flex;
     height: 92px;
     width: 170px;
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
-
     align-items: center;
     justify-content: center;
     fill: #AFB1B8;
 }
 
-.icon-client {
-    fill            : #AFB1B8;
-    background-color: var(--primary-bg-color);
-}
-
-.icon-client:hover {
-    fill            : var(--primary-bg-color);
-    background-color: var(--accent-color);
-}
-
-/* .social-list {
-    display: flex;
-    justify-content: center;
-    padding-left: 0;
-    margin-top: 16px;
-}
-
-.social-list .social-link {
-    display: flex;
-    height: 44px;
-    width: 44px;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    fill:#AFB1B8;
-}
-
-.social-list .social-link:hover {
+.client-list .client-link:hover {
     background-color: var(--accent-color);
     fill: var(--primary-bg-color);
 }
