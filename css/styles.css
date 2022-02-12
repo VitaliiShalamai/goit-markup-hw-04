@@ -299,18 +299,10 @@ body{
     width: 270px;
 }
 
-.feature-list::before {
-    display: block;
-    content: '';
-    height: 120px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--potfolio-bg-color);
-}
-
-.icon-satellite {
-background-image: url(../images/icons.svg);
+.icon-featurs {
+    margin-bottom: 30px;
+    background: var(--potfolio-bg-color);
+    border-radius: 4px;
 }
 
 .feature-list:not(:last-child) {
