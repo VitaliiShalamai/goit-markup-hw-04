@@ -313,10 +313,20 @@ body{
     width: 270px;
 }
 
-.icon-featurs {
+.featurs-link {
+    display: flex;
+    align-items  : center;
+    justify-content: center;
     margin-bottom: 30px;
-    background: var(--potfolio-bg-color);
+    background: #F5F4FA;
     border-radius: 4px;
+    height: 120px;
+    width: 270px;
+}
+
+.icon-featere {
+    height: 70px;
+    width: 70px;
 }
 
 .feature-list:not(:last-child) {
