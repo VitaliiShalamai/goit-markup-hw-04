@@ -302,6 +302,7 @@ body{
 .featurs,
 .main-project {
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .our-featur {
@@ -457,7 +458,12 @@ body{
     fill:#AFB1B8;
 }
 
-.social-list .social-link:hover {
+.social-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-list .social-link:hover,
+.social-list .social-link:focus {
     background-color: var(--accent-color);
     fill: var(--primary-bg-color);
 }
