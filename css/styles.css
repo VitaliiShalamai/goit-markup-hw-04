@@ -497,8 +497,8 @@ body{
 
 .client-list .client-link:hover,
 .client-list .client-link:focus {
-    background-color: var(--accent-color);
-    fill: var(--primary-bg-color);
+    background-color: var(--button-text-color);
+    fill: var(--accent-color);
 }
 
 .client-item:not(:last-child) {
