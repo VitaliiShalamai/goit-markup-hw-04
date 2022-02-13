@@ -494,7 +494,8 @@ body{
     fill: #AFB1B8;
 }
 
-.client-list .client-link:hover {
+.client-list .client-link:hover,
+.client-list .client-link:focus {
     background-color: var(--accent-color);
     fill: var(--primary-bg-color);
 }
